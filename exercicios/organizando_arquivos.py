@@ -5,10 +5,10 @@ import os
 
 #listas com as possíveis extensões:
 extensoes = {'audios': ['MP3', 'WAV', 'WMA', 'AAC'],
-						'imagens': ['JPG', 'PNG', 'JPEG'],
-						'videos': ['MP4', 'AVI', 'FLV'],
-						'documentos': ['DOC', 'DOCX', 'TXT', 'PDF'],
-						'outros': []}
+	     'imagens': ['JPG', 'PNG', 'JPEG'],
+	     'videos': ['MP4', 'AVI', 'FLV'],
+	     'documentos': ['DOC', 'DOCX', 'TXT', 'PDF'],
+	     'outros': []}
 path_type_file = {}
 
 
