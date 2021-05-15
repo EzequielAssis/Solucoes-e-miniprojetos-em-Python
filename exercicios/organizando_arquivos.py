@@ -8,7 +8,7 @@ extensoes = {'audios': ['MP3', 'WAV', 'WMA', 'AAC'],
 						'imagens': ['JPG', 'PNG', 'JPEG'],
 						'videos': ['MP4', 'AVI', 'FLV'],
 						'documentos': ['DOC', 'DOCX', 'TXT', 'PDF'],
-						'outros': 'NULL'}
+						'outros': []}
 path_type_file = {}
 
 
