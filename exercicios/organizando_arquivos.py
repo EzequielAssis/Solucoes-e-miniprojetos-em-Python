@@ -37,7 +37,7 @@ def organizando(diretorio):
 		if os.path.isfile(os.path.join(diretorio, arq)):
 			#Lê e retorna a extensão do arquivo.
 			ext_arq = extensao(str(arq.upper()))
-			#compara a extensão lida com as 							#extensões disponíveis no dicionário 					#'extensoes' e depois move o arquivo.
+			#compara a extensão lida com as extensões disponíveis no dicionário 'extensoes' e depois move o arquivo.
 			for key, ext in extensoes.items():
 				if ext_arq in ext or key == 'outros':
 					os.rename(os.path.join(diretorio, arq), os.path.join(path_type_file[key], arq))
