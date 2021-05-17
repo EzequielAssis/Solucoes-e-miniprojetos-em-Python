@@ -1,5 +1,5 @@
 #o objetivo desse Algoritmo é organizar pastas de acordo com o tipo de arquivo.
-#Classificando cada tipo de acordo com a extensão.
+
 
 import os
 
