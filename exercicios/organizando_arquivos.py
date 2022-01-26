@@ -1,9 +1,9 @@
-#o objetivo desse Algoritmo é organizar pastas de acordo com o tipo de arquivo.
+#o objetivo desse Algoritmo é organizar pastas dentro da pasta 'download' de acordo com o tipo de arquivo.
 
 
 import os
 
-#listas com as possíveis extensões:
+#dicionário de listas com as possíveis extensões:
 extensoes = {'audios': ['MP3', 'WAV', 'WMA', 'AAC'],
 	     'imagens': ['JPG', 'PNG', 'JPEG'],
 	     'videos': ['MP4', 'AVI', 'FLV'],
